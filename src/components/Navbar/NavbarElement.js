@@ -30,7 +30,7 @@ max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
-color:#fff;
+ color:#fff;
  justify-self: flex-start;
  cursor: pointer;
  font-size: 1.5rem;
