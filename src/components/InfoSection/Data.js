@@ -8,10 +8,9 @@ export const homeObjOne = {
     description:'Users are able to create multiple portfolios in order to track their investments in real time and create a portfolio to simiulate their financial goals. ',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/pic1.png').default,
     alt: 'pic1',
     dark: true,
-    //button
     primary: true,
     darkText: false
 
