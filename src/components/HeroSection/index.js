@@ -17,12 +17,10 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Track your Portfolio for Free!</HeroH1>
-                <HeroP>
-                    Join us by Signing up
-                </HeroP>
+                <HeroP>(add extra)</HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Get started {hover ? <ArrowForward /> : <ArrowRight />}
+                        SignUp{hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
