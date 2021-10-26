@@ -41,7 +41,7 @@ export const FooterLinkItems = styled.div`
  text-align: left;
  width: 160px;
  box-sizing: border-box;
- color: #fff;
+ color: #00000;
  
  @media screen and (max-width: 420px) {
      margin:0;
@@ -56,14 +56,18 @@ export const FooterLinkTitle = styled.h1`
 `
 
 export const FooterLink = styled(Link)`
- color: #fff;
+ color: #000000;
  text-decoration: none;
  margin-bottom: 0.5rem;
  font-size: 14px;
 
  &:hover{
-     color: #01bf71;
+     color: #01Bf71;
      transition: 0.3s ease-out
  }
+`
+export const WebsiteRights = styled.small`
+ color:#000000
+ margin-bottom: 16px;
 `
 

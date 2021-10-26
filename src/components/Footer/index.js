@@ -1,10 +1,20 @@
 import React from 'react'
+import {
+    FooterContainer,
+    FooterWrap,
+    FooterLinksContainer,
+    FooterLinksWrapper,
+    FooterLinkItems,
+    FooterLinkTitle,
+    FooterLink,
+    WebsiteRights
+} from './FooterElements'
 
 const Footer = () => {
     return (
         <FooterContainer>
         <FooterWrap>
-            <FooterLinkContainer>
+            <FooterLinksContainer>
                <FooterLinksWrapper>
                    <FooterLinkItems>
                        <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -41,7 +51,8 @@ const Footer = () => {
                        <FooterLink to="/signin">Terms of Service</FooterLink>
                    </FooterLinkItems>  
                </FooterLinksWrapper>  
-            </FooterLinkContainer>
+            </FooterLinksContainer>
+            <WebsiteRights>Div-Coin © {new Date().getFullYear()} All rights Reserved</WebsiteRights>
         </FooterWrap>
     </FooterContainer>
     )
