@@ -26,7 +26,10 @@ const Navbar = ({toggle}) => {
                           <NavLinks to="services"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Services</NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="signup"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Sign Up</NavLinks>
+                          <NavLinks to="Dashboard"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Dashboard</NavLinks>
+                      </NavItem>
+                      <NavItem>
+                          <NavLinks to="SignUp"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Sign Up</NavLinks>
                       </NavItem>
                   </NavMenu>
                   <NavBtn>
