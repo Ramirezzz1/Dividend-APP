@@ -2,6 +2,8 @@ import React from 'react';
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,NavBtn, NavBtnLink} from './NavbarElement';
 import { animateScroll as scroll} from 'react-scroll';
+import SignupPage from '../../pages/signup';
+
 const toggleHome= () => {
     scroll.scrollToTop();
 };
@@ -26,10 +28,10 @@ const Navbar = ({toggle}) => {
                           <NavLinks to="services"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Services</NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="Dashboard"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Dashboard</NavLinks>
+                          <NavLinks to="/dashboard"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Dashboard</NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="SignUp"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Sign Up</NavLinks>
+                          <NavLinks to="/signup" onClick={SignupPage} smooth={true} duration={500} spy={true} exact='true' offest={-80}>Sign Up</NavLinks>
                       </NavItem>
                   </NavMenu>
                   <NavBtn>
