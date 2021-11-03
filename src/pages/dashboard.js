@@ -2,12 +2,13 @@ import React from 'react'
 import Dashboard from '../components/Dashboard';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import { Container } from '../components/Signin/SigninElements';
 
 const dashboardPage = () => {
     return (
         <>
-            <Sidebar/>
             <Navbar/>
+            <Container/>
             <Dashboard/>
             <Dashboard/>
         </>
