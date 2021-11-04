@@ -1,7 +1,7 @@
 import React from 'react'
 import Dashboard from '../components/Dashboard';
+import NASDAQ from '../components/Dashboard/Chart/Chart';
 import Navbar from '../components/Navbar';
-import Sidebar from '../components/Sidebar';
 import { Container } from '../components/Signin/SigninElements';
 
 const dashboardPage = () => {
@@ -11,6 +11,7 @@ const dashboardPage = () => {
             <Container/>
             <Dashboard/>
             <Dashboard/>
+            <NASDAQ/>
         </>
     )
 }

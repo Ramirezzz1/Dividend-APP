@@ -14,6 +14,7 @@ class StockRow extends Component {
         }
 
     }
+ 
 
     changeStyle() {
         return {
@@ -22,6 +23,7 @@ class StockRow extends Component {
             marginLeft: 5
 
         }
+
     }
 
     
@@ -46,7 +48,7 @@ class StockRow extends Component {
             const percent_change = (100*dollar_change / yesterday.price).toFixed(2)
             
             this.setState({
-                dollar_change: `$${dollar_change}`,
+                dollar_change: dollar_change,
                 percent_change: ` (${percent_change}%) `
             })
         })
@@ -63,7 +65,7 @@ class StockRow extends Component {
             <li className="list-group-item" style={this.listStyle()}>
                 <b>{this.props.ticker}</b> ${this.state.price}
                 <span className="change" style={this.changeStyle()}>
-                    {this.state.dollar_change}
+                    ${this.state.dollar_change}
                     {this.state.percent_change}
                 </span>
             </li>

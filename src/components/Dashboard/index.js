@@ -16,7 +16,7 @@ const Dashboard = () => {
                                     <StockRow ticker = "aapl"/>
                                     <StockRow ticker = "goog"/>
                                     <StockRow ticker = "msft"/>
-                                    <StockRow ticker = "tsla"/>
+                                    <StockRow ticker = "T"/>
                                 </ul>
                             </div>    
                         </table>
