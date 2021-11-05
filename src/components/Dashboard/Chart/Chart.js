@@ -51,8 +51,8 @@ class NASDAQ extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>stock market</h1>
+            <div className='container justify-content flex-end'>
+                {/* <h1>stock market</h1> */}
                 <Plot
                     data={[
                         {
@@ -64,7 +64,7 @@ class NASDAQ extends React.Component {
                         }
                         
                     ]}
-                    layout={{ width: 720, height: 440, title: 'NASDAQ', paper_bgcolor: 'rgb(200,233,233)' }}
+                    layout={{ width: 1275, height: 440, title: 'NASDAQ', paper_bgcolor: 'rgb(000,000,000)', xaxis:{title:'Last 100 days',font:{color:'#ffffff'}}, yaxis:{title:'Dollars'} }}
                 />
             </div>
         )

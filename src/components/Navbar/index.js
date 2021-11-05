@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa'
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,NavBtn, NavBtnLink} from './NavbarElement';
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,NavBtn, NavBtnLink, NavLinks2} from './NavbarElement';
 import { animateScroll as scroll} from 'react-scroll';
 import SignupPage from '../../pages/signup';
 
@@ -28,10 +28,7 @@ const Navbar = ({toggle}) => {
                           <NavLinks to="services"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Services</NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="/dashboard"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Dashboard</NavLinks>
-                      </NavItem>
-                      <NavItem>
-                          <NavLinks to="/signup" onClick={SignupPage} smooth={true} duration={500} spy={true} exact='true' offest={-80}>Sign Up</NavLinks>
+                          <NavLinks2 to="/dashboard"smooth={true} duration={500} spy={true} exact='true' offest={-80}>Dashboard</NavLinks2>
                       </NavItem>
                   </NavMenu>
                   <NavBtn>

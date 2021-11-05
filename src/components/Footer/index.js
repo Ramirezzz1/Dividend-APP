@@ -19,7 +19,6 @@ const Footer = () => {
                    <FooterLinkItems>
                        <FooterLinkTitle>About Us</FooterLinkTitle>
                        <FooterLink to="/signin">How it works</FooterLink>
-                       <FooterLink to="/signin">Testimonials</FooterLink>
                        <FooterLink to="/signin">Our Partners</FooterLink>
                        <FooterLink to="/signin">Investors</FooterLink>
                        <FooterLink to="/signin">Terms of Service</FooterLink>
@@ -30,7 +29,6 @@ const Footer = () => {
                        <FooterLink to="/signin">Div-Coin@Div.com</FooterLink>
                        <FooterLink to="/signin">Twitter</FooterLink>
                        <FooterLink to="/signin">Facebook</FooterLink>
-                       <FooterLink to="/signin">Instagram</FooterLink>
                    </FooterLinkItems>  
                </FooterLinksWrapper>
                <FooterLinksWrapper>
@@ -38,17 +36,16 @@ const Footer = () => {
                        <FooterLinkTitle>Testimonials</FooterLinkTitle>
                        <FooterLink to="/signin">How it works</FooterLink>
                        <FooterLink to="/signin">Testimonials</FooterLink>
-                       <FooterLink to="/signin">Careers</FooterLink>
+                       <FooterLink to="/signin">Visit Us</FooterLink>
                        <FooterLink to="/signin">Investors</FooterLink>
-                       <FooterLink to="/signin">Terms of Service</FooterLink>
                    </FooterLinkItems>
                    <FooterLinkItems>
                        <FooterLinkTitle>Careers</FooterLinkTitle>
-                       <FooterLink to="/signin">How it works</FooterLink>
-                       <FooterLink to="/signin">Testimonials</FooterLink>
+                       <FooterLink to="/signin">Partner with us</FooterLink>
+                       <FooterLink to="/signin">Recuriters</FooterLink>
                        <FooterLink to="/signin">Careers</FooterLink>
                        <FooterLink to="/signin">Investors</FooterLink>
-                       <FooterLink to="/signin">Terms of Service</FooterLink>
+                       
                    </FooterLinkItems>  
                </FooterLinksWrapper>  
             </FooterLinksContainer>

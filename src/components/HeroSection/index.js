@@ -1,27 +1,27 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Video from '../../videos/video2.mp4'
-import { Button } from '../ButtonElement';
-import { HeroContainer, HeroBg, VideoBg,HeroContent,HeroH1,HeroP,HeroBtnWrapper,ArrowForward,ArrowRight } from './HeroElements';
+import { Button2 } from '../ButtonElement';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
 
 
 const HeroSection = () => {
-    const [hover,setHover] = useState(false)
+    const [hover, setHover] = useState(false)
 
-    const onHover= () => {
+    const onHover = () => {
         setHover(!hover)
     }
     return (
         <HeroContainer id="home">
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Track your Portfolio for Free!</HeroH1>
-                <HeroP>(add extra)</HeroP>
+                <HeroP>Sign Up today and Recieve two free stocks on us! Invite friends and recieve and additional stock per person. </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button2 to="/signup" onMouseEnter={onHover} onMouseLeave={onHover}>
                         SignUp{hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </Button2>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

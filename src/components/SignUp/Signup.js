@@ -20,7 +20,7 @@ const FormSignup = (submitForm) => {
             <div className="form-inputs">
                 <label htmlFor="lastname" className="form-label"></label>LastName
                     <input id="lastname" type="text" name="lastname" className='form-input' placeholder="Enter your Last Name" value={values.lastname} onChange={handleChange}/>
-                    {errors.lastnamename && <p>{errors.lastname}</p>}
+                    {errors.lastname && <p>{errors.lastname}</p>}
             </div>
             <div className="form-inputs">
                 <label htmlFor="email" className="form-label"></label>Email
