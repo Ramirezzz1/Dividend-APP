@@ -2,7 +2,7 @@ import React from 'react';
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,NavBtn, NavBtnLink, NavLinks2} from './NavbarElement';
 import { animateScroll as scroll} from 'react-scroll';
-import SignupPage from '../../pages/signup';
+
 
 const toggleHome= () => {
     scroll.scrollToTop();
